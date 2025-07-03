@@ -49,7 +49,6 @@ function view(count) {
     viewMore.addEventListener("click", () => {
         counts = count.length;
         proInner(count, counts)
-        console.log(counts);
 
 
     })

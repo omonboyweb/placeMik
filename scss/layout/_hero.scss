@@ -1,0 +1,46 @@
+.hero__block {
+  display: flex;
+  gap: 30px;
+}
+
+.hero__catalog {
+  box-shadow: 0 4px 40px 0 rgba(0, 0, 0, 0.12);
+  background: #fff;
+  width: 100%;
+  max-width: 246px;
+  display: flex;
+  flex-direction: column;
+}
+
+.hero__catalog-title {
+  background: linear-gradient(144deg, #f64d4d 0%, #4d5ef6 100%);
+  width: 100%;
+  padding: 8px 30px;
+}
+
+.hero__catalog-list {
+  padding: 8px 30px;
+  display: flex;
+  flex-direction: column;
+  gap: 11px;
+}
+
+.hero__catalog-list li {
+  font-family: var(--font-family);
+  font-weight: 300;
+  font-size: 14px;
+  color: #000;
+  cursor: pointer;
+}
+
+.allCatolog {
+  font-family: var(--font-family);
+  font-weight: 400;
+  font-size: 14px;
+  background: linear-gradient(144deg, #f64d4d 0%, #4d5ef6 100%);
+  background-clip: text;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  padding: 8px 30px;
+  margin-top: 18px;
+}

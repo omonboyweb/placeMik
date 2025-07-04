@@ -45,3 +45,20 @@
   font-weight: 500;
   cursor: pointer;
 }
+
+.add {
+  width: 100%;
+  display: flex;
+  gap: 20px;
+}
+
+.addWishlist,
+.addBacket {
+  width: 20px;
+  height: 20px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color: #c7f1c4;
+  cursor: pointer;
+}

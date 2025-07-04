@@ -8,6 +8,7 @@
     <title>PlaceMik Made in Korea -- Товары из Кореи от производителя</title>
   </head>
   <body>
+    <div class="modal" id="modal"></div>
     <!-- Header block  -->
     <header>
       <div class="container">
@@ -303,15 +304,29 @@
         </div>
       </div>
     </section>
-    <main>
+    <main class="main">
       <section class="products">
         <div class="container">
           <h3 class="product__title">Успей купить</h3>
-          <div class="product__block"></div>
+          <div class="product__blocks product__block"></div>
+          <button class="viewMore">Все товары</button>
+        </div>
+      </section>
+      <section class="products">
+        <div class="container">
+          <h3 class="product__title">Laptop</h3>
+          <div class="laptop__block product__block"></div>
+          <button class="viewMore">Все товары</button>
+        </div>
+      </section>
+      <section class="products">
+        <div class="container">
+          <h3 class="product__title">Laptop</h3>
+          <div class="phone__block product__block"></div>
           <button class="viewMore">Все товары</button>
         </div>
       </section>
     </main>
-    <script src="./js/main.js"></script>
+    <script type="module" src="./js/main.js"></script>
   </body>
 </html>

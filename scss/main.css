@@ -213,16 +213,57 @@ header {
   align-items: center;
   justify-content: center;
   background-color: red;
-  height: 12px;
-  width: 12px;
+  height: 18px;
+  width: 18px;
   border-radius: 50%;
   top: 0;
   right: 5px;
   font-family: var(--font-family);
   font-weight: 500;
-  font-size: 7px;
+  font-size: 16px;
   color: var(--color-white);
+}
+
+.modal {
+  position: fixed;
+  inset: 0;
+  background: rgba(0, 0, 0, 0.6);
   display: none;
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content: center;
+  z-index: 50;
+  max-width: 90%;
+  gap: 15px;
+  margin: 0 auto;
+}
+
+.modal.active {
+  display: flex;
+}
+
+.modal-content {
+  background: #fff;
+  border-radius: 8px;
+  display: flex;
+  gap: 20px;
+  padding: 20px;
+  max-width: 600px;
+  width: 30%;
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.3);
+}
+
+.modal-content img {
+  width: 150px;
+  border-radius: 4px;
+  -o-object-fit: cover;
+     object-fit: cover;
+}
+
+.modal-details {
+  display: flex;
+  flex-direction: column;
+  gap: 8px;
 }
 
 .hero__block {
@@ -318,5 +359,22 @@ header {
   margin-bottom: 20px;
   font-size: 20px;
   font-weight: 500;
+  cursor: pointer;
+}
+
+.add {
+  width: 100%;
+  display: flex;
+  gap: 20px;
+}
+
+.addWishlist,
+.addBacket {
+  width: 20px;
+  height: 20px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color: #c7f1c4;
   cursor: pointer;
 }/*# sourceMappingURL=main.css.map */
